@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <script type="text/javascript">
+        emailjs.init('7yj-zySrwVdGk9EK5')
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <header>
+        <a href="#" class="logo">
+            <img src="/img/logo.png" alt="">
+        </a>
+        <i class="fa-solid fa-circle-chevron-down" onclick="toggle()" id="menu-icon"></i>
+
+        <ul class="navbar">
+
+            <li><a href="#home" class="colorbtn" id="togglebtn" onclick="toggle()">Home</a></li>
+            <li><a href="#about" class="colorbtn" onclick="toggle()">About</a></li>
+            <li><a href="#skills" class="colorbtn" onclick="toggle()">Skills</a></li>
+            <li><a href="#projects" class="colorbtn" onclick="toggle()">Projects</a></li>
+            <li><a href="#services" class="colorbtn" onclick="toggle()">Services</a></li>
+            <li><a href="#contact" class="colorbtn" onclick="toggle()">Contact</a></li>
+            <div>
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                </label>
+            </div>
+        </ul>
+    </header>
+    <!-- navbar end -->
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/ViratSathavara"><i class="fa-brands fa-square-github"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+        <div class="home-img">
+            <img src="./img/myimg2.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Virat Sathavara</h1>
+            <h2>Frontend Developer</h2>
+            <a download href="./Resumex.pdf" class="btn">Downlod CV</a>
+        </div>
+    </section>
+
+    <!-- home end -->
+    <!-- about start -->
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./img/about.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>I am Virat Sathavara, I am Pursuing bachelor's degree in computer engineering in Smt S. R. Patel
+                    Engineering College. I am Interested in web development and i have knowledge of
+                    Html,Css,Javascript,Jquery,Bootstrap,React.js,Adobe Illustrator, Adobe Premiere pro, Adobe Audition
+                    and mern Stack knowledge.</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Virat Sathavara</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+91 - 9429086515</span>
+                    </div>
+                    <div class="info-box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span><a href="viratmsathavara2510@gmail.com" style="color: black;">viratmsathavara2510@gmail.com</a> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- about end -->
+
+
+
+    <!-- skill start -->
+
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+
+        <div class="skills-container">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>93%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>JAVASCRIPT</h3>
+                    <span>76%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>JQUERY</h3>
+                    <span>70%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar jq-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>REACT.JS</h3>
+                    <span>60%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar rjs-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>FIREBASE</h3>
+                    <span>40%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar fb-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>ADOBE ILLUSTRATOR</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar adbill-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>ADOBE PREMIERE PRO</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar adbpmp-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>ADOBE AUDITION</h3>
+                    <span>76%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar adbaun-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="./img/skills.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- skill end -->
+
+
+    <!-- project start -->
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h1 class="sub-title">MY WORK PROJECTS </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/js 22.jpg">
+                    <div class="layer">
+                        <h3>1.Number Quiz Game</h3>
+                        <p>Created using HTML , CSS & JAVASCRIPT.</p>
+                        <a href="https://number-quiz-game.netlify.app/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/coffee.JPG">
+                    <div class="layer">
+                        <h3>2.Coffee Time</h3>
+                        <p>Created using React.js , Bootstrap & API.</p>
+                        <a href="https://docket-word-character-counter.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/docket 2.JPG">
+                    <div class="layer">
+                        <h3>3. Docket - Word counter</h3>
+                        <p>created using HTML , CSS & JAVASCRIPT.</p>
+                        <a href="https://coffee-time-best-coffee.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <button onclick="myHide()" class="btn" id="btnseemore">See More</button>
+
+
+    <section class="projects" id="projects1">
+        <div class="container">
+            <div class="work-list">
+                <div class="work">
+                    <img src="./img/quotes.JPG">
+                    <div class="layer">
+                        <h3>4.Best Brainy Quotes</h3>
+                        <p>Created using HTML , CSS , JAVASCRIPT & JQUERY.</p>
+                        <a href="https://bestbrainyquotes.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/fruit-crush.JPG">
+                    <div class="layer">
+                        <h3>5.FRUIT CRUSH GAME</h3>
+                        <p>Created using HTML , CSS , JAVASCRIPT & JQUERY.</p>
+                        <a href="https://docket-word-character-counter.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./img/videochat.JPG">
+                    <div class="layer">
+                        <h3>6. VIDEO CALL APPLICATION</h3>
+                        <p>created using REACT>JS & ZEGOCLOUD.</p>
+                        <a href="https://bejewelled-lokum-c12dbc.netlify.app/"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- project end -->
+    <!-- services start -->
+
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa_bx fa-code"></i>
+                <h3>Web Development</h3>
+                <a href="#" class="btn1">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa_bx fa-palette"></i>
+                <h3>Designing</h3>
+                <a href="#" class="btn1">Learn More</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa_bx fa-laptop-code"></i>
+                <h3>Mern stack</h3>
+                <a href="#" class="btn1">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- services end -->
+    <!-- contact start -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contact With Me</span>
+        </div>
+        <div class="contact-form">
+            <form action="#">
+                <input type="text" id="fullName" placeholder="Your Name" required>
+                <input type="Email" id="email_id" placeholder="Your Email" required>
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Write Message Here..."
+                    required></textarea>
+                <button onclick="SendMail()" class="btn ">SEND</button>
+            </form>
+        </div>
+    </section>
+    <!-- contact end -->
+    <!-- Footer start -->
+    <div class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-github-alt"></i></a>
+        </div>
+        <span class="copyright">© 2023-2024 ALL rights reserved</span>
+    </div>
+
+    <!-- Footer end -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
